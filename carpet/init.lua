@@ -186,4 +186,82 @@ minetest.register_node("carpet:white", {
 
 -- Crafing
 
--- TODO
+minetest.register_craft({
+	output = 'carpet:red 64',
+	recipe = {
+		{'wool:red', 'wool:red', 'wool:red'},
+		{'wool:red', 'wool:red', 'wool:red'},
+	}
+})
+
+minetest.register_craft({
+	output = 'carpet:orange 64',
+	recipe = {
+		{'wool:orange', 'wool:orange', 'wool:orange'},
+		{'wool:orange', 'wool:orange', 'wool:orange'},
+	}
+})
+
+minetest.register_craft({
+	output = 'carpetyellow 64',
+	recipe = {
+		{'wool:yellow', 'wool:yellow', 'wool:yellow'},
+		{'wool:yellow', 'wool:yellow', 'wool:yellow'},
+	}
+})
+
+minetest.register_craft({
+	output = 'carpet:green 64',
+	recipe = {
+		{'wool:green', 'wool:green', 'wool:green'},
+		{'wool:green', 'wool:green', 'wool:green'},
+	}
+})
+
+minetest.register_craft({
+	output = 'carpet:cyan 64',
+	recipe = {
+		{'wool:cyan', 'wool:cyan', 'wool:cyan'},
+		{'wool:cyan', 'wool:cyan', 'wool:cyan'},
+	}
+})
+
+minetest.register_craft({
+	output = 'carpet:blue 64',
+	recipe = {
+		{'wool:blue', 'wool:blue', 'wool:blue'},
+		{'wool:blue', 'wool:blue', 'wool:blue'},
+	}
+})
+
+minetest.register_craft({
+	output = 'carpet:pink 64',
+	recipe = {
+		{'wool:pink', 'wool:pink', 'wool:pink'},
+		{'wool:pink', 'wool:pink', 'wool:pink'},
+	}
+})
+
+minetest.register_craft({
+	output = 'carpet:magenta 64',
+	recipe = {
+		{'wool:magenta', 'wool:megenta', 'wool:magenta'},
+		{'wool:magenta', 'wool:magenta', 'wool:magenta'},
+	}
+})
+
+minetest.register_craft({
+	output = 'carpet:white 64',
+	recipe = {
+		{'wool:white', 'wool:white', 'wool:white'},
+		{'wool:white', 'wool:white', 'wool:white'},
+	}
+})
+
+minetest.register_craft({
+	output = 'carpet:black 64',
+	recipe = {
+		{'wool:black', 'wool:black', 'wool:black'},
+		{'wool:black', 'wool:black', 'wool:black'},
+	}
+})
