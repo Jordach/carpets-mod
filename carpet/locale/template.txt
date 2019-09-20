@@ -1,0 +1,11 @@
+# textdomain:carpet
+Red Carpet=
+Orange Carpet=
+Yellow Carpet=
+Green Carpet=
+Cyan Carpet=
+Blue Carpet=
+Pink Carpet=
+Black Carpet=
+Magenta Carpet=
+White Carpet=
