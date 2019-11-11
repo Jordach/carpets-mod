@@ -1,0 +1,13 @@
+# textdomain:carpet
+
+Carpet=
+Red @1=
+Orange @1=
+Yellow @1=
+Green @1=
+Cyan @1=
+Blue @1=
+Pink @1=
+Black @1=
+Magenta @1=
+White @1=

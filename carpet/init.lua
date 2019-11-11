@@ -3,8 +3,11 @@
 -- License LGPL
 -- This mod adds carpets into Minetest.
 
+-- Used for localization
+local S = minetest.get_translator("carpet")
+
 minetest.register_node("carpet:red", {
-	description = "Red Carpet",
+	description = S("Red @1", S("Carpet")),
 	drawtype = "raillike",
 	tiles = {"carpet_red_out.png", "carpet_red_cor.png", "carpet_red_one.png", "carpet_red_cen.png"},
 	inventory_image = "carpet_red_out.png",
@@ -22,7 +25,7 @@ minetest.register_node("carpet:red", {
 })
 
 minetest.register_node("carpet:orange", {
-	description = "Orange Carpet",
+	description = S("Orange @1", S("Carpet")),
 	drawtype = "raillike",
 	tiles = {"carpet_orange_out.png", "carpet_orange_cor.png", "carpet_orange_one.png", "carpet_orange_cen.png"},
 	inventory_image = "carpet_orange_out.png",
@@ -40,7 +43,7 @@ minetest.register_node("carpet:orange", {
 })
 
 minetest.register_node("carpet:yellow", {
-	description = "Yellow Carpet",
+	description = S("Yellow @1", S("Carpet")),
 	drawtype = "raillike",
 	tiles = {"carpet_yellow_out.png"},
 	inventory_image = "carpet_yellow_out.png",
@@ -58,7 +61,7 @@ minetest.register_node("carpet:yellow", {
 })
 
 minetest.register_node("carpet:green", {
-	description = "Green Carpet",
+	description = S("Green @1", S("Carpet")),
 	drawtype = "raillike",
 	tiles = {"carpet_green_out.png"},
 	inventory_image = "carpet_green_out.png",
@@ -76,7 +79,7 @@ minetest.register_node("carpet:green", {
 })
 
 minetest.register_node("carpet:cyan", {
-	description = "Cyan Carpet",
+	description = S("Cyan @1", S("Carpet")),
 	drawtype = "raillike",
 	tiles = {"carpet_cyan_out.png"},
 	inventory_image = "carpet_cyan_out.png",
@@ -94,7 +97,7 @@ minetest.register_node("carpet:cyan", {
 })
 
 minetest.register_node("carpet:blue", {
-	description = "Blue Carpet",
+	description = S("Blue @1", S("Carpet")),
 	drawtype = "raillike",
 	tiles = {"carpet_blue_out.png"},
 	inventory_image = "carpet_blue_out.png",
@@ -112,7 +115,7 @@ minetest.register_node("carpet:blue", {
 })
 
 minetest.register_node("carpet:pink", {
-	description = "Pink Carpet",
+	description = S("Pink @1", S("Carpet")),
 	drawtype = "raillike",
 	tiles = {"carpet_pink_out.png"},
 	inventory_image = "carpet_pink_out.png",
@@ -131,7 +134,7 @@ minetest.register_node("carpet:pink", {
 
 
 minetest.register_node("carpet:black", {
-	description = "Black Carpet",
+	description = S("Black @1", S("Carpet")),
 	drawtype = "raillike",
 	tiles = {"carpet_black_out.png"},
 	inventory_image = "carpet_black_out.png",
@@ -149,7 +152,7 @@ minetest.register_node("carpet:black", {
 })
 
 minetest.register_node("carpet:magenta", {
-	description = "Magenta Carpet",
+	description = S("Magenta @1", S("Carpet")),
 	drawtype = "raillike",
 	tiles = {"carpet_magenta_out.png"},
 	inventory_image = "carpet_magenta_out.png",
@@ -167,7 +170,7 @@ minetest.register_node("carpet:magenta", {
 })
 
 minetest.register_node("carpet:white", {
-	description = "White Carpet",
+	description = S("White @1", S("Carpet")),
 	drawtype = "raillike",
 	tiles = {"carpet_white_out.png"},
 	inventory_image = "carpet_white_out.png",
